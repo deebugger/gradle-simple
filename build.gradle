@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
   compile 'com.google.guava:guava:18.0'
+  compile 'axis:axis:1.4'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
